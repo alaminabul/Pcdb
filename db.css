@@ -1,0 +1,190 @@
+@media screen (min-width:1025px){
+body {
+margin: 0px; padding: 0px;
+}
+#infor {
+background-color: #00bfff; margin-left: 25%;
+color: ;
+width: 55%;
+float: right;
+border-radius: 9%;
+height: 20%; 
+}
+#db {
+text-align: center;
+width: 20%;
+background-color: #00bfff;
+height: 600px;
+border-top-right-radius: 6%;
+border-bottom-right-radius: 6%;
+}
+#noofstdnts{
+/*float: right; margin-left: 50px;*/ margin-right: 5%; border-radius: 5%; margin-top: 2%;
+border: solid; border-color: #00bfff; width:10%; height: 18%; text-align: center; color: #0000ff;
+}
+#badge{
+margin-top: 8%;
+margin-left: 2%; 
+}
+#noofteachers {
+/*float: left; margin-left: 35%;*/
+ margin-right: 2%; border-radius: 5%; margin-top: 2%; margin-left: 30%;
+border: solid; border-color: #00bfff; width:10%; height: 18%; text-align: center; color: #0000ff;
+}
+#tel div, button {
+display: inline-block; float:right; 
+}
+#tel {
+margin-left: 20%; margin-right: 2%;
+}
+#prnplpic {
+background-color: white; height: 100px; border: solid; border-color:#00bfff; width: 100px; margin-left: 5%;
+ text-align: center; border-radius: 50px; margin-top: 12px; background-size: cover;
+}
+
+#tp, #sd, #md {
+	font-family: lucida calligraphy, serif, Times new roman, Algerian; font-size: 25px; color: white;
+}
+
+.nn { 	background-color: white;  height: 70px; width: 80px; margin-right: 50px;
+
+
+}
+button {
+	background-image: url(''); background-size: cover; height: 70px; width: 80px; margin-right: 50px;
+}
+
+#classperformance {
+	background-color: #00bfff; border-radius: 10px; width: 80%; text-align: center;color: white; font-size: 1.7em;
+	font-family: times new roman, Algerian;
+}
+#resd {
+	float: right; 
+}
+.nn {
+	 margin-right: 2%; border-radius: 5px; margin-top: 20px; height: 100px; width: 100px;
+}
+figure {
+	margin: none;
+}
+figcaption {
+	color: #00bfff;
+}
+#yt{
+	position: relative; float: right; margin-top: 10px; margin-left: 30px;
+}
+}
+
+
+/* Mobile devices (max-width: 768px) in portrait orientation */
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  #infor {
+    margin-left: 10%;
+    width: 60%;
+   background-color: #00bfff;
+   float: right;
+   border-radius: 4px;
+  }
+  #db {
+    width: 30%;
+    height: 360px;
+    background-color: #00bfff;
+    text-align: center;
+    color: white;
+    position: absolute;
+  
+  }
+  #badge{
+height: 50px;
+margin-top: 6%;
+width: 50px;
+margin-left: 2%;}
+
+#noofstdnts,#noofteachers{
+/*float: right; margin-left: 50px;*/ margin-right: 0%; border-radius: 5%; margin-top: 8%;
+border: solid; border-color: #00bfff; width:60px; height: 18%; text-align: center; color: #0000ff;
+float: right;font-size: 10px;
+margin-left: 3%;
+}
+  .nn { 	background-color: white;  height: 65px; width: 67px; 
+  margin-right: 3px;
+    float: right;
+    border-color:#00bfff ;
+    margin-top: 3px;
+  }
+
+#tp, #sd, #md {
+	font-family: lucida calligraphy, serif, Times new roman, Algerian; font-size: 12px; color: white;}
+  #tel {
+    margin-left: 10%;
+    float: right;
+  }figure {
+	margin: none;
+}
+figcaption {
+	color: #00bfff;
+	margin-top: 8px;
+}
+#yt{
+	position: relative; float: right; margin-top: 10px; 
+	margin-left: 10px;
+	height: 130px;
+	width: 130px;
+}
+  
+  button {
+
+	background-image: url(''); background-size: cover; height: 70px; width: 80px; margin-right: 50px;
+
+}
+#art {
+  float: right;
+  position: relative;
+  margin-left: none;
+  display: inline-block;
+}
+#classperformance {
+	background-color: #00bfff;
+	border-radius: 10px; width: 80%; 
+	text-align: center;color: white; 
+	font-size: 1.7em; float: right;
+font-family: times new roman, Algerian;
+	border-color: #00bfff;
+}
+#resd {
+	float: right; position: relative;
+}
+  #prnplpic {
+    margin-top: 5%;
+    background-color: white;
+    width: 30%;
+    border-radius: 8px;
+    height: 50px;
+    margin-left: 5%;
+  }
+}
+
+/* Tablets (min-width: 769px and max-width: 1024px) in portrait orientation */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: portrait) {
+  #infor {
+    margin-left: 15%;
+    width: 70%;
+  }
+  #db {
+    width: 80%;
+    height: 500px;
+  }
+  #noofstdnts, #noofteachers {
+    margin-top: 3%;
+    width: 12%;
+  }
+  #tel {
+    margin-left: 15%;
+  }
+  #prnplpic {
+    margin-top: 12%;
+  }
+}
+```
