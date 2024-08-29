@@ -150,10 +150,10 @@ figcaption {
 	text-align: center;color: white; 
 	font-size: 1.7em; float: right;
 font-family: times new roman, Algerian;
-	border-color: #00bfff;
+	border-color: #00bfff; margin-left: 20px;
 }
 #resd {
-	float: right; position: relative;
+	float: right; position: relative; margin-top: 11px;
 }
   #prnplpic {
     margin-top: 5%;
