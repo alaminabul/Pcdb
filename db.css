@@ -79,6 +79,9 @@ figcaption {
 /* Mobile devices (max-width: 768px) in portrait orientation */
 
 @media screen and (max-width: 768px) and (orientation: portrait) {
+  body { margin: 0px; padding: 0px;
+  }
+  }
   #infor {
     margin-left: 10%;
     width: 60%;
@@ -107,8 +110,8 @@ border: solid; border-color: #00bfff; width:60px; height: 18%; text-align: cente
 float: right;font-size: 10px;
 margin-left: 3%;
 }
-  .nn { 	background-color: white;  height: 65px; width: 67px; 
-  margin-right: 3px;
+  .nn { 	background-color: white;  height: 63px; width: 65px; 
+  margin-right: 1px;
     float: right;
     border-color:#00bfff ;
     margin-top: 3px;
@@ -140,9 +143,10 @@ figcaption {
 }
 #art {
   float: right;
-  position: relative;
-  margin-left: none;
+  position: absolute;
+  margin-left:60px ; margin-right: 0px;
   display: inline-block;
+  margin-top: 200px;
 }
 #classperformance {
 	background-color: #00bfff;
@@ -150,10 +154,10 @@ figcaption {
 	text-align: center;color: white; 
 	font-size: 1.7em; float: right;
 font-family: times new roman, Algerian;
-	border-color: #00bfff; margin-left: 20px;
+	border-color: #00bfff;margin-left: 30px;
 }
 #resd {
-	float: right; position: relative; margin-top: 11px;
+	float: right; position: relative; margin-top: 120px;
 }
   #prnplpic {
     margin-top: 5%;
